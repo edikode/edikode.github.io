@@ -20,7 +20,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- sementara -->
-  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!-- <link href="vendor/icofont/icofont.min.css" rel="stylesheet"> -->
   <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <!-- <link href="vendor/owl.carousel/owl.carousel.min.css" rel="stylesheet"> -->
   <!-- <link href="vendor/venobox/venobox.css" rel="stylesheet"> -->
@@ -68,12 +68,30 @@
 
       <div class="section-title">
         <h2>About</h2>
-        <p>Learn more about me</p>
+        <p>Learn about me</p>
       </div>
 
-      <div class="row">
+      <div class="row portfolio">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="img/profile.png" class="img-fluid" alt="Profile Edikode">
+          <!-- <img src="img/profile.png" class="img-fluid" alt="Profile Edikode" style="
+          border-top: 5px solid #00363a;
+          border-right: 5px solid #428e92;
+          border-left: 5px solid #428e92;
+          border-bottom: 5px solid #00363a;
+          box-shadow: 10px 10px 5px rgba(0,0,0,0.3);"> -->
+          <div class="portfolio-wrap" style="
+          border-top: 5px solid #00363a;
+          border-right: 5px solid #428e92;
+          border-left: 5px solid #428e92;
+          border-bottom: 5px solid #00363a;
+          box-shadow: 10px 10px 5px rgba(0,0,0,0.3);">
+            <img src="img/profile.png" class="img-fluid" alt="Profil">
+            <div class="portfolio-info">
+              <div class="portfolio-links h3 text-white">
+                Edi Siswanto
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Full Stack Web Developer</h3>
@@ -155,62 +173,68 @@
         <div class="row">
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
-              <i class="ri-store-line" style="color: #ffbb2c;"></i>
+              <img src="img/skills/html5.svg" alt="html5">
               <h3>HTML</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+              <img src="img/skills/css-3.svg" alt="css3">
               <h3>CSS</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box">
-              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+              <img src="img/skills/javascript.svg" alt="javascript">
               <h3>Javascript</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <img src="img/skills/php.svg" alt="php">
               <h3>PHP</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <img src="img/skills/bootstrap.svg" alt="bootstrap">
               <h3>Bootstrap</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <img src="img/skills/jquery.svg" alt="jquery">
               <h3>JQuery</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <img src="img/skills/laravel.svg" alt="">
               <h3>Laravel</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <img src="img/skills/angular.svg" alt="angular 2">
               <h3>Angular 2</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+              <img src="img/skills/mysql.svg" alt="mysql">
               <h3>MySQL</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+              <img src="img/skills/mongodb.svg" alt="mongodb">
               <h3>Mongo DB</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <img src="img/skills/firebase.svg" alt="firebase">
+              <h3>Firebase</h3>
             </div>
           </div>
         </div>
@@ -369,147 +393,6 @@
       <div class="section-title">
         <h2>Portfolio</h2>
         <p>My Works</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
 
     </div>
