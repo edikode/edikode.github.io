@@ -151,7 +151,7 @@
   //     type: "POST",
   //     url: "https://mandrillapp.com/api/1.0/messages/send.json",
   //     data: {
-  //       key: "14502c753fe68590ee93944f28fd7eb3-us17",
+  //       key: "",
   //       message: {
   //         from_email: "edisiswanto.ti8.poliwangi@gmail.com",
   //         to: [
