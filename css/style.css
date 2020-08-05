@@ -653,7 +653,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(0, 0, 0, 0.08);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
@@ -775,6 +775,7 @@ section .container {
   overflow: hidden;
   z-index: 1;
   /* background: rgba(0, 0, 0, 0.6); */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .portfolio .portfolio-wrap::before {
